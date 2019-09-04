@@ -22,6 +22,7 @@
 		F7B6F24423205AF100C35606 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7B6F24723205AF100C35606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7B6F24923205AF100C35606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7B6F25023205D2D00C35606 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +41,7 @@
 			children = (
 				F7B6F23C23205AEF00C35606 /* HTMLLinkDetectorExample */,
 				F7B6F23B23205AEF00C35606 /* Products */,
+				F7B6F24F23205D2D00C35606 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +64,14 @@
 				F7B6F24923205AF100C35606 /* Info.plist */,
 			);
 			path = HTMLLinkDetectorExample;
+			sourceTree = "<group>";
+		};
+		F7B6F24F23205D2D00C35606 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7B6F25023205D2D00C35606 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
